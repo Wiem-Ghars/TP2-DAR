@@ -54,7 +54,7 @@ public class Client2 {
 			String s = br.readLine();
 			int result = Integer.parseInt(s);
 			//Afficahge du résultat
-			System.out.println(nb1+" "+op+" "+nb2+"="+result);
+			System.out.println(nb1+" "+op+" "+nb2+"= "+result);
 		} catch (UnknownHostException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
